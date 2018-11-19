@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Moja Strona</title>
+	<meta name="viewport" content="width=width-device, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fontello/css/fontello.css">
+	<link href="lightbox.css" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+		
+		<header>
+			<div id="slideshow"></div>
+		</header>
+
+		<nav id="navigation">
+			
+			<ul id="menu">
+				<li>Home</li>
+				<li>Menu</li>
+				<li>O Nas</li>
+				<li>Kontakt</li>
+			</ul>
+		</nav>
+
+		<article>
+			
+			<h1 id="hello">Witamy!</h1>
+			<p id="paragraph">Zachęcamy do zapoznania się z Naszymi potrawami. Na pewno znajdą Państwo coś, co w wyjątkowy <br> sposób urozmaici Wasz dzień.
+			Nasze potrawy są przygotowywane na miejscu, z największą starannością.</p>
+
+			<section id="galery">
+				
+				<div class="tile"><a href="images/foto1.jpg" data-lightbox="roadtrip"><img src="images/foto1.jpg" alt="foto1">
+				<div class="icon" title="Kliknij aby wyświetlić."><i class="icon-search"></i></div></a></div>
+				<div class="tile"><a href="images/foto2.jpg" data-lightbox="roadtrip"><img src="images/foto2.jpg" alt="foto2">
+				<div class="icon" title="Kliknij aby wyświetlić."><i class="icon-search"></i></div></a></div>
+				<div class="tile"><a href="images/foto3.jpg" data-lightbox="roadtrip"><img src="images/foto3.jpg" alt="foto3">
+				<div class="icon"title="Kliknij aby wyświetlić."><i class="icon-search"></i></div></a></div>
+				<div class="tile"><a href="images/foto4.jpg" data-lightbox="roadtrip"><img src="images/foto4.jpg" alt="foto4">
+				<div class="icon" title="Kliknij aby wyświetlić."><i class="icon-search"></i></div></a></div>
+				<div style="clear: both;"></div>
+
+			</section>
+
+			<section id="section_two">
+				
+				<header id="about_us">
+					<h1>O Nas:</h1>
+				</header>
+
+				<p id="paragraph_two">
+					
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum orci, mollis vel nunc eu, suscipit aliquet odio. Morbi gravida mauris in dolor semper hendrerit. Duis vehicula sem mi, nec convallis felis tristique vel. Donec iaculis massa ornare justo facilisis dignissim. Integer sit amet sagittis diam, eget ornare risus. Duis consectetur nibh et eros condimentum, a tempor mi varius. Suspendisse potenti. Fusce ut lacus ultricies, pulvinar lacus viverra, semper leo. Duis quam nibh, vestibulum quis blandit et, faucibus vitae tellus. Morbi ante felis, pellentesque vitae eros vitae, mattis dictum nunc. Sed ullamcorper quam risus, sed volutpat arcu semper gravida. Nulla facilisi. Nunc sodales sodales urna sodales iaculis. Donec sodales ligula sit amet nunc fermentum, nec consectetur magna aliquam. Nam at felis eu nisi congue consequat eu vitae mauris.
+
+				</p>
+
+			</section>
+
+		</article>
+
+		<aside>
+			
+			<div>
+				<fieldset id="write_to_us">
+					<legend>Napisz do Nas:</legend>
+				<form id="form">
+					<label class="label" for="input_text">Imię:</label><input type="text" class="input_text" required>
+					<label class="label" for="input_text">Nazwisko:</label><input type="text" class="input_text" required>
+					<label class="label" for="input_text">E-mail:</label><input type="email" class="input_text" required>
+					<label class="label" for="textarea">Wiadomość:</label><textarea id="textarea"></textarea>
+					<div id="personal_data"><label id="RODO" title="Kliknij aby wyświetlić." for="check">Akceptuję RODO:</label><input type="checkbox" id="check" required></div>
+					<div id="tile1">Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ustawą o ochronie danych osobowych w celach kontaktowych. Podanie danych osobowych jest dobrowolne. Zostałem poinformowany, że przysługuje mi prawo dostępu do swoich danych, możliwości ich poprawiania, żądania zaprzestania ich przetwarzania. Administratorem danych jest firma RESTAURACJA, ul. Restauracyjna 1/2, 33-456 Restauracyjkowo.</div>
+					<input type="submit" value="Wyślij" id="submit">
+				</form></fieldset>
+
+			</div>
+
+		</aside>
+
+		<footer>Website design by Tomasz Cudzich &copy; copyright 2018</footer>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+	<script src="slide_script.js"></script>
+	<script src="lightbox.js"></script>
+</body>
+</html>
